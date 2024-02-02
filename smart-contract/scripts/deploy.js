@@ -7,8 +7,8 @@
 const hre = require("hardhat");
 
 async function main() {
-  const entityName = "Pope";
-  const entityAge = 27;
+  const entityName = "Olah";
+  const entityAge = 25;
 
   const simpleRegistry = await hre.ethers.deployContract("SimpleRegistry", [
     entityName,

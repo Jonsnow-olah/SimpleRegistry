@@ -3,7 +3,7 @@ import contractABI from "./abi.json";
 const ethers = require("ethers");
 
 function App() {
-  const contractAddress = "0xb08F1DBd3B2590C3E6fF17c01022FDD7C4b697f8";
+  const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
